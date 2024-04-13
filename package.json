@@ -1,0 +1,23 @@
+{
+  "name": "http-networking",
+  "version": "1.0.0",
+  "description": "- HTTP is the most popular protocol to communicate online",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidalu/HTTP-Networking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tidalu/HTTP-Networking/issues"
+  },
+  "homepage": "https://github.com/tidalu/HTTP-Networking#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
