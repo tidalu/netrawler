@@ -1,5 +1,5 @@
 {
-  "name": "http-networking",
+  "name": "netrawler",
   "version": "1.0.0",
   "description": "- HTTP is the most popular protocol to communicate online",
   "main": "main.js",
@@ -7,16 +7,19 @@
     "start": "node --no-warnings main.js",
     "test": "jest"
   },
+  "bin": {
+    "netrawler": "main.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tidalu/HTTP-Networking.git"
+    "url": "git+https://github.com/tidalu/netrawler.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tidalu/HTTP-Networking/issues"
+    "url": "https://github.com/tidalu/netrawler/issues"
   },
-  "homepage": "https://github.com/tidalu/HTTP-Networking#readme",
+  "homepage": "https://github.com/tidalu/netrawler#readme",
   "devDependencies": {
     "jest": "^29.7.0"
   },
