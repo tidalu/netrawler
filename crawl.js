@@ -13,8 +13,6 @@ async function crawlPage(baseURL, currentURL, pages) {
   }
   pages[normalizedCurrentURL] = 1;
 
-  console.log(`Actively crawling:  ${currentURL}`);
-
   try {
     const resp = await fetch(currentURL);
 
